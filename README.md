@@ -1,2 +1,2 @@
 # TorrentPull
-An emulator to web scrap the torrent files
+An emulator to web scrap torrent files
