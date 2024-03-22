@@ -5,5 +5,7 @@ from tqdm import tqdm
 import pandas as pd
 import requests
 
-site = requests.get("https://1337xto.to")
-pprint(site)
+proxies = {'https':'https://103.88.44.21:80'}
+
+site = requests.get("https://ipinfo.io/json",proxies=proxies)
+print(site.text)
